@@ -1,0 +1,14 @@
+// responsive
+$breakpoints: (
+  "sp": "screen and (max-width:599px )",
+  "tab": "screen and (max-width:1200px )",
+  "pc": "screen and (min-width: 1201px)",
+  "tab-sp": "screen and (max-width: 800px)"
+  // "pc-tab": "screen and (min-width: 1320px)",
+);
+
+@mixin mq($breakpoint: md) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
