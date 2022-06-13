@@ -4,3 +4,49 @@
 @use "./page/**/*.scss";
 @use "./setting/**/*.scss";
 @use "./bootstrap-css/**/*.scss";
+
+html {
+    font-size: 15px;
+}
+
+.flex {
+    display: flex;
+}
+
+.section-title {
+    font-size: 24px;
+    text-align: center;
+}
+
+.pic {
+    object-fit: contain;
+}
+
+.li-row {
+    flex-wrap: wrap;
+}
+
+.header {
+    margin: 8em 15em;
+
+    justify-content: space-between;
+    font-size: 15px;
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .first-child {
+        margin-right: auto;
+    }
+
+    .pic {
+        height: 15px;
+        object-fit: contain;
+    }
+}
+
+.fv img {
+    width: 100%;
+    display: block;
+}
