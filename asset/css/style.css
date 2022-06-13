@@ -22024,4 +22024,47 @@ textarea.form-control-lg {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+html {
+  font-size: 15px;
+}
+
+.flex {
+  display: flex;
+}
+
+.section-title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.pic {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.li-row {
+  flex-wrap: wrap;
+}
+
+.header {
+  margin: 8em 15em;
+  justify-content: space-between;
+  font-size: 15px;
+}
+.header h1 {
+  font-size: 32px;
+}
+.header .first-child {
+  margin-right: auto;
+}
+.header .pic {
+  height: 15px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.fv img {
+  width: 100%;
+  display: block;
+}
 /*# sourceMappingURL=style.css.map */
